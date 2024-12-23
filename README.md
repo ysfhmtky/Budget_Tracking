@@ -73,8 +73,7 @@ Open a pull request
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-vbnet
-Copy code
+
 
 ### Summary of Changes:
 - Changed the start command to `npm run dev` for development.
