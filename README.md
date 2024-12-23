@@ -1,4 +1,5 @@
 **Mini Expense Tracker**
+
 Mini Expense Tracker is a simple, user-friendly mobile application designed to help users track their daily, weekly, and monthly expenses. It allows users to quickly log their spending, categorize expenses, and view insightful analytics in a minimalistic and visually appealing design.
 
 Features
