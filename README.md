@@ -1,80 +1,88 @@
-**Mini Expense Tracker**
+# Budget Tracking App
 
-Mini Expense Tracker is a simple, user-friendly mobile application designed to help users track their daily, weekly, and monthly expenses. It allows users to quickly log their spending, categorize expenses, and view insightful analytics in a minimalistic and visually appealing design.
+A simple and user-friendly mobile app for tracking daily, weekly, and monthly expenses.
 
-Features
-Log Expenses: Easily add expenses by entering the amount, category, optional notes, and date.
-Expense Analytics: View weekly and monthly expense summaries and categorized spending through charts.
-Expense List: See a chronological list of all recorded expenses, with options to edit or delete them.
-Notifications: Daily and weekly reminders to help users stay on top of their spending habits.
-Offline Functionality: Data is stored locally for offline access, ensuring quick and easy usage anytime.
-Screenshots
+## Features
 
+- **Add Expenses**: Log your daily expenses, including the amount, category (Food, Transportation, Entertainment, etc.), optional note, and date.
+- **Expense List**: View a list of all your recorded expenses, sorted by date. Each entry shows the amount, category, and date.
+- **Analytics**: Get a summary of your total expenses for the week and month, with pie charts displaying the breakdown by category. Highlights the category with the highest spending.
+- **Data Management**: Edit or delete individual expense entries as needed.
+- **Notifications**: Receive reminders to add your expenses daily and weekly summaries of your spending.
 
+## Technologies Used
 
-How It Works
-Home Screen:
+- **Frontend**: React (or another JS framework if used)
+- **Backend**: (Optional if applicable)
+- **Database**: (Optional if applicable)
 
-Displays the total expenses for today, this week, and this month.
-A prominent "Add Expense" button for quick input.
-Add Expense:
+## Prerequisites
 
-Input fields for amount, category, and an optional note.
-Save button records the expense.
-Expense List:
+Before running the app, make sure you have the following installed:
 
-Displays a list of recorded expenses, sorted by date.
-Edit and delete options for each expense.
-Analytics:
+- Node.js (https://nodejs.org/)
+- npm (comes with Node.js)
 
-Weekly and monthly expense summaries.
-Category-based spending charts (pie or bar charts).
-Notifications:
+## Getting Started
 
-Remind users daily and weekly to log and review their spending.
-Getting Started
-To run the Mini Expense Tracker app locally:
-
-Prerequisites
-Android Studio (or Xcode for iOS development)
-Flutter SDK (for cross-platform development)
-Installation
-Clone the repository:
-
-```bash
-Copy code
-git clone https://github.com/your-username/mini-expense-tracker.git
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/ysfhmtky/Budget_Tracking.git
+   ```
 Navigate to the project directory:
+
+```bash
+Copy code
+cd Budget_Tracking
+Install the required dependencies:
 ```
 ```bash
 Copy code
-cd mini-expense-tracker
-Install dependencies:
+npm install
+Start the development server:
 ```
 ```bash
 Copy code
-flutter pub get
-Run the app:
+npm run dev
+This will run the app on a local server. You can open it in your browser by going to http://localhost:3000.
 ```
-```bash
+```File Structure
+plaintext
 Copy code
-flutter run
-Usage
-Open the app on your device or emulator.
-Use the "Add Expense" button to log your spending.
-View your expenses on the list and get insights in the analytics section.
+Budget_Tracking/
+│
+├── public/           # Public files (HTML, images, etc.)
+├── src/              # Source code
+│   ├── components/   # React components
+│   ├── pages/        # Pages (e.g., Home, Add Expense)
+│   ├── styles/       # Stylesheets (CSS or SCSS)
+│   └── App.js        # Main application file
+├── .gitignore        # Git ignore file
+├── package.json      # Project metadata and dependencies
+└── README.md         # Project documentation
+```
+Contributing
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+```Fork the repo
+Create a new branch (git checkout -b feature-name)
+Commit your changes (git commit -am 'Add feature')
+Push to the branch (git push origin feature-name)
+Open a pull request
 ```
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-```Contributing
-Fork the repository.
-Create a feature branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
-```
+vbnet
+Copy code
 
-Acknowledgments
-Thanks to Flutter for making cross-platform development easy and efficient.
-Thanks to the open-source community for their continuous support.
+### Summary of Changes:
+- Changed the start command to `npm run dev` for development.
+- Updated instructions to use `npm install` to install dependencies.
+
+This should work well for your project, and feel free to adjust further as needed! Let me know if you need more updates.
+
+
+
+
+
